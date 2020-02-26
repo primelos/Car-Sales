@@ -30,8 +30,9 @@ const CarHome = props => {
           />
         </div>
       </div>
-      <button className='log-out' onClick={logout}>Logout</button>
-
+      <button className="log-out" onClick={logout}>
+        Logout
+      </button>
     </div>
   );
 };

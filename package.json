@@ -1,28 +1,16 @@
 {
-  "name": "new",
+  "name": "Car-Sales",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "main": "src/index.js",
+  "main": "index.js",
+  "repository": "https://github.com/primelos/Car-Sales.git",
+  "author": "Ale <alearanibar@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "bulma": "0.7.5",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "body-parser": "^1.19.0",
+    "bulma": "^0.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "^13.8.0",
+    "nodemon": "^2.0.2"
+  }
 }
